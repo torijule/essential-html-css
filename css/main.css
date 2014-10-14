@@ -1,5 +1,29 @@
-/* 
-your CSS rules and font imports should go here 
-delete this comment, add the import directives for your fonts
-and add the CSS rules as described in the challenge
-*/
+/*Victoria Wellington
+INFO 343 */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lato);  
+
+body {
+	font: 'Lato' ;
+	font-size: 18px;
+	font-weight: 300;
+	background-image: url('../img/background.jpg');
+	/*set background image size and fix it */
+
+
+}
+
+a:link{
+	color: #000AA;
+	text-decoration: none; /*no underline? */
+}
+
+a:hover{
+	color: #000EE;
+}
+
+a:focus{
+	color #000EE;
+}
+
