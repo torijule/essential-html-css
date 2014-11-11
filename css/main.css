@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
 Victoria Wellington
 Main css file to go with assignment two
@@ -111,3 +112,73 @@ main {
 	background-image: url('../img/ricepaper_v3.png');
 	opacity: 0.9;
 }
+=======
+/*Victoria Wellington
+INFO 343 */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lato);  
+
+/*body formatting */
+
+body {
+	font: 'Lato' ;
+	font-size: 18px;
+	font-weight: 300;
+	background-image: url('../img/background.jpg');
+	/*set background image size and fix it */
+
+
+}
+
+a:link{
+	color: #0000AA;
+	text-decoration: none; /*no underline? */
+}
+
+a:hover{
+	color: #0000EE;
+}
+
+a:focus{
+	color: #0000EE;
+}
+
+/*heading formatting */
+
+head {
+	font: 'Raleway';
+	font-size: 300%
+	font-weight: 300;
+	margin: 0;
+
+}
+
+h2 {
+
+	color: #505050
+	font-size: 150%;
+}
+
+h3 {
+
+	color: #505050
+	font-size: 125%;
+
+}
+
+/*main page content */
+
+.main {
+	margin-left: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px    
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+}
+
+
+
+
+>>>>>>> origin/master
